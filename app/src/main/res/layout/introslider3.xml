@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b802c6">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="280dp"
+        android:layout_height="250dp"
+        android:src="@drawable/intro_third"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All in One App"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/White"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multiple features in one \n             Application"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/White"
+        android:layout_below="@id/img1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+
+</RelativeLayout>
